@@ -1,0 +1,10 @@
+install http://xquartz.macosforge.org/landing/
+export CPPFLAGS=-I/opt/X11/include
+
+download ree: http://www.rubyenterpriseedition.com/download.html
+untar
+./installer --dont-install-useful-gems
+
+when asked for path put:
+/Users/ingo/.rubies/ree-1.8.7-2011.12
+
